@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireAndIce - eCommerce Website</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+      <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - $55
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="usd">USD &dollar;</option>
+            <option value="eur">EUR &euro;</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Espa&ntilde;ol</option>
+            <option value="fr">Fran&ccedil;ais</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="./index.html" class="header-logo">
+          <img src="./assets/images/logo/logo.png" alt="FireAndIce's logo" width="50" height="50">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="./index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Desktop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Laptop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Camera</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tablet</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Headphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Jacket</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sunglasses</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Perfume</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cosmetics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bags</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart Watch</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart TV</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Keyboard</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mouse</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Microphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Shirt</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Shorts & Jeans</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Safety Shoes</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Wallet</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Dress & Frock</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Makeup Kit</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Jewelry</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Couple Rings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bracelets</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Perfume</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Clothes Perfume</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deodorant</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Flower Fragrance</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Air Freshener</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Hot Offers</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Men's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shirt</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shorts & Jeans</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Safety Shoes</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Wallet</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Makeup Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Jewelry</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfume</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Hot Offers</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+    <div class="notification-toast" data-toast>
+
+        <button class="toast-close-btn" data-toast-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="toast-banner">
+            <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70">
+        </div>
+
+        <div class="toast-detail">
+
+            <p class="toast-message">
+                Someone in new just bought
+            </p>
+
+            <p class="toast-title">
+                Rose Gold Earrings
+            </p>
+
+            <p class="toast-meta">
+                <time datetime="PT2M">2 Minutes</time> ago
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="page-container cd-main-content drawer-page-content" id="PageContainer">
+
+        <main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
+            <div class="page-width">
+                <div class="grid">
+                    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+                        <div class="section-header text-center">
+                            <h1>Privacy Policy</h1>
+                        </div>
+
+                        <div class="rte">
+                            <p>This Privacy Policy describes how www.fireandice.com (the “Site” or “we”) collects, uses, and
+                                discloses your Personal Information when you visit or make a purchase from the Site.</p>
+                            <h1>Contact</h1>
+                            <p>After reviewing this policy, if you have additional questions, want more information
+                                about our privacy practices, or would like to make a complaint, please contact us by
+                                e-mail at fireandice@gmail.com or by mail using the details provided below:</p>
+                            <p>Mulund (W), 400080 Mumbai MH, India</p>
+                            <h1>Collecting Personal Information</h1>
+                            <p>When you visit the Site, we collect certain information about your device, your
+                                interaction with the Site, and information necessary to process your purchases. We may
+                                also collect additional information if you contact us for customer support. In this
+                                Privacy Policy, we refer to any information about an identifiable individual (including
+                                the information below) as “Personal Information”. See the list below for more
+                                information about what Personal Information we collect and why.</p>
+                            <ul>
+                                <li><u>Device information</u></li>
+                                <ul>
+                                    <li>
+                                        <strong>Purpose of collection:</strong> to load the Site accurately for you, and
+                                        to perform analytics on Site usage to optimize our Site.
+                                    </li>
+                                    <li>
+                                        <strong>Source of collection:</strong> Collected automatically when you access
+                                        our Site using cookies, log files, web beacons, tags, or pixels <i>[ADD OR
+                                            SUBTRACT ANY OTHER TRACKING TECHNOLOGIES USED]</i>.
+                                    </li>
+                                    <li>
+                                        <strong>Disclosure for a business purpose:</strong> shared with our processor
+                                        Shopify <i>[ADD ANY OTHER VENDORS WITH WHOM YOU SHARE THIS INFORMATION]</i>.
+                                    </li>
+                                    <li>
+                                        <strong>Personal Information collected:</strong> version of web browser, IP
+                                        address, time zone, cookie information, what sites or products you view, search
+                                        terms, and how you interact with the Site <i>[ADD OR SUBTRACT ANY OTHER PERSONAL
+                                            INFORMATION COLLECTED]</i>.
+                                    </li>
+                                </ul>
+                                <li><u>Order information</u></li>
+                                <ul>
+                                    <li>
+                                        <strong>Purpose of collection:</strong> to provide products or services to you
+                                        to fulfill our contract, to process your payment information, arrange for
+                                        shipping, and provide you with invoices and/or order confirmations, communicate
+                                        with you, screen our orders for potential risk or fraud, and when in line with
+                                        the preferences you have shared with us, provide you with information or
+                                        advertising relating to our products or services.
+                                    </li>
+                                    <li>
+                                        <strong>Source of collection:</strong> collected from you.
+                                    </li>
+                                    <li>
+                                        <strong>Disclosure for a business purpose:</strong> shared with our processor
+                                        Shopify <i>[ADD ANY OTHER VENDORS WITH WHOM YOU SHARE THIS INFORMATION. FOR
+                                            EXAMPLE, SALES CHANNELS, PAYMENT GATEWAYS, SHIPPING AND FULFILLMENT
+                                            APPS]</i>.
+                                    </li>
+                                    <li>
+                                        <strong>Personal Information collected:</strong> name, billing address, shipping
+                                        address, payment information (including credit card numbers <i>[INSERT ANY OTHER
+                                            PAYMENT TYPES ACCEPTED]</i>), email address, and phone number.
+                                    </li>
+                                </ul>
+                                <li><u>Customer support information</u></li>
+                                <ul>
+                                    <li><strong>Purpose of collection:</strong></li>
+                                    <li><strong>Source of collection:</strong></li>
+                                    <li><strong>Disclosure for a business purpose:</strong></li>
+                                    <li>
+                                        <strong>Personal Information collected:</strong> <i>[INSERT ANY OTHER
+                                            INFORMATION YOU COLLECT: OFFLINE DATA, PURCHASED MARKETING DATA/LISTS]</i>
+                                    </li>
+                                    <li>
+                                        <strong>Purpose of collection:</strong> to provide customer support.
+                                    </li>
+                                    <li>
+                                        <strong>Source of collection:</strong> collected from you
+                                    </li>
+                                    <li>
+                                        <strong>Disclosure for a business purpose:</strong> <i>[ADD ANY VENDORS USED TO
+                                            PROVIDE CUSTOMER SUPPORT]</i>
+                                    </li>
+                                    <li>
+                                        <strong>Personal Information collected:</strong> <i>[ADD ANY MODIFICATIONS TO
+                                            THE INFORMATION LISTED ABOVE OR ADDITIONAL INFORMATION AS NEED.]</i>
+                                    </li>
+                                </ul>
+                            </ul>
+                            <p><i>[INSERT FOLLOWING SECTION IF AGE RESTRICTION IS REQUIRED]</i></p>
+                            <h2>Minors</h2>
+                            <p>The Site is not intended for individuals under the age of <i>[INSERT AGE]</i>. We do not
+                                intentionally collect Personal Information from children. If you are the parent or
+                                guardian and believe your child has provided us with Personal Information, please
+                                contact us at the address above to request deletion.</p>
+                            <h1>Sharing Personal Information</h1>
+                            <p>We share your Personal Information with service providers to help us provide our services
+                                and fulfill our contracts with you, as described above. For example:</p>
+                            <ul>
+                                <li>We use Shopify to power our online store. You can read more about how Shopify uses
+                                    your Personal Information here: <a href="https://www.shopify.com/legal/privacy"
+                                        target="_blank" aria-describedby="a11y-new-window-external-message"
+                                        rel="noopener">https://www.shopify.com/legal/privacy</a>.</li>
+                                <li>We may share your Personal Information to comply with applicable laws and
+                                    regulations, to respond to a subpoena, search warrant or other lawful request for
+                                    information we receive, or to otherwise protect our rights.</li>
+                                <li><i>[INSERT INFORMATION ABOUT OTHER SERVICE PROVIDERS]</i></li>
+                            </ul>
+                            <p><i>[INCLUDE FOLLOWING SECTION IF USING REMARKETING OR TARGETED ADVERTISING]</i></p>
+                            <h1>Behavioural Advertising</h1>
+                            <p>As described above, we use your Personal Information to provide you with targeted
+                                advertisements or marketing communications we believe may be of interest to you. For
+                                example:</p>
+                            <ul>
+                                <li>
+                                    <i>[INSERT IF APPLICABLE]</i> We use Google Analytics to help us understand how our
+                                    customers use the Site. You can read more about how Google uses your Personal
+                                    Information here: <a href="https://www.google.com/intl/en/policies/privacy/"
+                                        target="_blank" aria-describedby="a11y-new-window-external-message"
+                                        rel="noopener">https://www.google.com/intl/en/policies/privacy/</a>. You can
+                                    also opt-out of Google Analytics here: <a
+                                        href="https://tools.google.com/dlpage/gaoptout" target="_blank"
+                                        aria-describedby="a11y-new-window-external-message"
+                                        rel="noopener">https://tools.google.com/dlpage/gaoptout</a>.
+                                </li>
+                                <li>
+                                    <i>[INSERT IF YOU USE A THIRD PARTY MARKETING APP THAT COLLECTS INFORMATION ABOUT
+                                        BUYER ACTIVITY ON YOUR SITE]</i> We share information about your use of the
+                                    Site, your purchases, and your interaction with our ads on other websites with our
+                                    advertising partners. We collect and share some of this information directly with
+                                    our advertising partners, and in some cases through the use of cookies or other
+                                    similar technologies (which you may consent to, depending on your location).
+                                </li>
+                                <li>
+                                    <i>[INSERT IF USING SHOPIFY AUDIENCES]</i> We use Shopify Audiences to help us show
+                                    ads on other websites with our advertising partners to buyers who made purchases
+                                    with other Shopify merchants and who may also be interested in what we have to
+                                    offer. We also share information about your use of the Site, your purchases, and the
+                                    email address associated with your purchases with Shopify Audiences, through which
+                                    other Shopify merchants may make offers you may be interested in.
+                                </li>
+                                <li><i>[INSERT OTHER ADVERTISING SERVICES USED]</i></li>
+                            </ul>
+                            <p>You can opt out of targeted advertising by:</p>
+                            <p><i>[INCLUDE OPT-OUT LINKS FROM WHICHEVER SERVICES BEING USED. COMMON LINKS INCLUDE:</i>
+                            </p>
+                            <h1>Using Personal Information</h1>
+                            <p>We use your personal Information to provide our services to you, which includes: offering
+                                products for sale, processing payments, shipping and fulfillment of your order, and
+                                keeping you up to date on new products, services, and offers.</p>
+                            <p><i>[INCLUDE THE FOLLOWING SECTION IF YOUR STORE IS LOCATED IN OR IF YOU HAVE CUSTOMERS IN
+                                    EUROPE]</i></p>
+                            <h2>Lawful basis</h2>
+                            <p>Pursuant to the General Data Protection Regulation (“GDPR”), if you are a resident of the
+                                European Economic Area (“EEA”), we process your personal information under the following
+                                lawful bases:</p>
+                            <p><i>[INCLUDE ALL THAT APPLY TO YOUR BUSINESS]</i></p>
+                            <ul>
+                                <li>Your consent;</li>
+                                <li>The performance of the contract between you and the Site;</li>
+                                <li>Compliance with our legal obligations;</li>
+                                <li>To protect your vital interests;</li>
+                                <li>To perform a task carried out in the public interest;</li>
+                                <li>For our legitimate interests, which do not override your fundamental rights and
+                                    freedoms.</li>
+                            </ul>
+                            <h2>Retention</h2>
+                            <p>When you place an order through the Site, we will retain your Personal Information for
+                                our records unless and until you ask us to erase this information. For more information
+                                on your right of erasure, please see the ‘Your rights’ section below.</p>
+                            <h2>Automatic decision-making</h2>
+                            <p>If you are a resident of the EEA, you have the right to object to processing based solely
+                                on automated decision-making (which includes profiling), when that decision-making has a
+                                legal effect on you or otherwise significantly affects you.</p>
+                            <p>We <i>[DO/DO NOT]</i> engage in fully automated decision-making that has a legal or
+                                otherwise significant effect using customer data.</p>
+                            <p>Our processor Shopify uses limited automated decision-making to prevent fraud that does
+                                not have a legal or otherwise significant effect on you.</p>
+                            <p>Services that include elements of automated decision-making include:</p>
+                            <ul>
+                                <li>Temporary blacklist of IP addresses associated with repeated failed transactions.
+                                    This blacklist persists for a small number of hours.</li>
+                                <li>Temporary blacklist of credit cards associated with blacklisted IP addresses. This
+                                    blacklist persists for a small number of days.</li>
+                            </ul>
+                            <h1>Selling Personal Information</h1>
+                            <p><i>[INCLUDE THIS SECTION IF YOUR BUSINESS IS SUBJECT TO THE CALIFORNIA CONSUMER PRIVACY
+                                    ACT AND SELLS PERSONAL INFORMATION AS DEFINED BY THE CALIFORNIA CONSUMER PRIVACY
+                                    ACT]</i></p>
+                            <p>Our Site sells Personal Information, as defined by the California Consumer Privacy Act of
+                                2018 (“CCPA”).</p>
+                            <p><i>[Insert:</i></p>
+                            <ul>
+                                <li><i>categories of information sold;</i></li>
+                                <li><i>IF USING SHOPIFY AUDIENCES: information about your use of the Site, your
+                                        purchases, and the email address associated with your purchase</i></li>
+                                <li><i>instructions on how to opt-out of sale;</i></li>
+                                <li><i>whether your business sells information of minors (under 16) and whether you
+                                        obtain affirmative authorization;</i></li>
+                                <li><i>if you provide a financial incentive to sell information, provide information
+                                        about what that incentive is.]</i></li>
+                            </ul>
+                            <h1>Your rights</h1>
+                            <p><i>[INCLUDE FOLLOWING SECTION IF YOUR STORE IS LOCATED IN OR IF YOU HAVE CUSTOMERS IN
+                                    EUROPE]</i></p>
+                            <h2>GDPR</h2>
+                            <p>If you are a resident of the EEA, you have the right to access the Personal Information
+                                we hold about you, to port it to a new service, and to ask that your Personal
+                                Information be corrected, updated, or erased. If you would like to exercise these
+                                rights, please contact us through the contact information above. <i>[OR INSERT
+                                    ALTERNATIVE INSTRUCTIONS FOR SENDING ACCESS, ERASURE, CORRECTION, AND PORTABILITY
+                                    REQUESTS]</i></p>
+                            <p>Your Personal Information will be initially processed in Ireland and then will be
+                                transferred outside of Europe for storage and further processing, including to Canada
+                                and the United States. For more information on how data transfers comply with the GDPR,
+                                see Shopify’s GDPR Whitepaper:</p>
+                            <p><i>[INCLUDE FOLLOWING SECTION IF YOUR BUSINESS IS SUBJECT TO THE CALIFORNIA CONSUMER
+                                    PRIVACY ACT]</i></p>
+                            <h2>CCPA</h2>
+                            <p>If you are a resident of California, you have the right to access the Personal
+                                Information we hold about you (also known as the ‘Right to Know’), to port it to a new
+                                service, and to ask that your Personal Information be corrected, updated, or erased. If
+                                you would like to exercise these rights, please contact us through the contact
+                                information above. <i>[OR INSERT ALTERNATIVE INSTRUCTIONS FOR SENDING ACCESS, ERASURE,
+                                    CORRECTION, AND PORTABILITY REQUESTS]</i></p>
+                            <p>If you would like to designate an authorized agent to submit these requests on your
+                                behalf, please contact us at the address above.</p>
+                            <h1>Cookies</h1>
+                            <p>A cookie is a small amount of information that’s downloaded to your computer or device
+                                when you visit our Site. We use a number of different cookies, including functional,
+                                performance, advertising, and social media or content cookies. Cookies make your
+                                browsing experience better by allowing the website to remember your actions and
+                                preferences (such as login and region selection). This means you don’t have to re-enter
+                                this information each time you return to the site or browse from one page to another.
+                                Cookies also provide information on how people use the website, for instance whether
+                                it’s their first time visiting or if they are a frequent visitor.</p>
+                            <p>We use the following cookies to optimize your experience on our Site and to provide our
+                                services.</p>
+                            <p><i>[Be sure to check this list against Shopify’s current list of cookies on the merchant
+                                    storefront:]</i></p>
+                            <p><i>[INSERT OTHER COOKIES OR TRACKING TECHNOLOGIES THAT YOU USE]</i></p>
+                            <p>The length of time that a cookie remains on your computer or mobile device depends on
+                                whether it is a “persistent” or “session” cookie. Session cookies last until you stop
+                                browsing and persistent cookies last until they expire or are deleted. Most of the
+                                cookies we use are persistent and will expire between 30 minutes and two years from the
+                                date they are downloaded to your device.</p>
+                            <p>You can control and manage cookies in various ways. Please keep in mind that removing or
+                                blocking cookies can negatively impact your user experience and parts of our website may
+                                no longer be fully accessible.</p>
+                            <p>Most browsers automatically accept cookies, but you can choose whether or not to accept
+                                cookies through your browser controls, often found in your browser’s “Tools” or
+                                “Preferences” menu. For more information on how to modify your browser settings or how
+                                to block, manage or filter cookies can be found in your browser’s help file or through
+                                such sites as: <a href="www.fireandice.com" target="_blank" rel="noopener"
+                                    aria-describedby="a11y-new-window-message">www.allaboutcookies.org</a>.</p>
+                            <p>Additionally, please note that blocking cookies may not completely prevent how we share
+                                information with third parties such as our advertising partners. To exercise your rights
+                                or opt-out of certain uses of your information by these parties, please follow the
+                                instructions in the “Behavioural Advertising” section above.</p>
+                            <h2>Do Not Track</h2>
+                            <p>Please note that because there is no consistent industry understanding of how to respond
+                                to “Do Not Track” signals, we do not alter our data collection and usage practices when
+                                we detect such a signal from your browser.</p>
+                            <h1>Changes</h1>
+                            <p>We may update this Privacy Policy from time to time in order to reflect, for example,
+                                changes to our practices or for other operational, legal, or regulatory reasons.</p>
+                            <h1>Complaints</h1>
+                            <p>As noted above, if you would like to make a complaint, please contact us by e-mail or by
+                                mail using the details provided under “Contact” above.</p>
+                            <p>If you are not satisfied with our response to your complaint, you have the right to lodge
+                                your complaint with the relevant data protection authority. You can contact your local
+                                data protection authority, or our supervisory authority here: <i>[Add contact
+                                    information or website for the data protection authority in your jurisdiction. For
+                                    example: <a href="www.fireandice.com" target="_blank"
+                                        aria-describedby="a11y-new-window-external-message"
+                                        rel="noopener">www.fireandice.com</a>]</i></p>
+                            <p>Last updated: <i>11/12/2024</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div id="shopify-section-footer" class="shopify-section">
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-category">
+
+            <div class="container">
+
+                <h2 class="footer-category-title">Brand directory</h2>
+
+                <div class="footer-category-box">
+
+                    <h3 class="category-box-title">Fashion :</h3>
+
+                    <a href="#" class="footer-category-link">T-shirt</a>
+                    <a href="#" class="footer-category-link">Shirts</a>
+                    <a href="#" class="footer-category-link">shorts & jeans</a>
+                    <a href="#" class="footer-category-link">jacket</a>
+                    <a href="#" class="footer-category-link">dress & frock</a>
+                    <a href="#" class="footer-category-link">innerwear</a>
+                    <a href="#" class="footer-category-link">hosiery</a>
+
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">footwear :</h3>
+
+                    <a href="#" class="footer-category-link">sport</a>
+                    <a href="#" class="footer-category-link">formal</a>
+                    <a href="#" class="footer-category-link">Boots</a>
+                    <a href="#" class="footer-category-link">casual</a>
+                    <a href="#" class="footer-category-link">cowboy shoes</a>
+                    <a href="#" class="footer-category-link">safety shoes</a>
+                    <a href="#" class="footer-category-link">Party wear shoes</a>
+                    <a href="#" class="footer-category-link">Branded</a>
+                    <a href="#" class="footer-category-link">Firstcopy</a>
+                    <a href="#" class="footer-category-link">Long shoes</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">jewellery :</h3>
+
+                    <a href="#" class="footer-category-link">Necklace</a>
+                    <a href="#" class="footer-category-link">Earrings</a>
+                    <a href="#" class="footer-category-link">Couple rings</a>
+                    <a href="#" class="footer-category-link">Pendants</a>
+                    <a href="#" class="footer-category-link">Crystal</a>
+                    <a href="#" class="footer-category-link">Bangles</a>
+                    <a href="#" class="footer-category-link">bracelets</a>
+                    <a href="#" class="footer-category-link">nosepin</a>
+                    <a href="#" class="footer-category-link">chain</a>
+                    <a href="#" class="footer-category-link">Earrings</a>
+                    <a href="#" class="footer-category-link">Couple rings</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">cosmetics :</h3>
+
+                    <a href="#" class="footer-category-link">Shampoo</a>
+                    <a href="#" class="footer-category-link">Bodywash</a>
+                    <a href="#" class="footer-category-link">Facewash</a>
+                    <a href="#" class="footer-category-link">makeup kit</a>
+                    <a href="#" class="footer-category-link">liner</a>
+                    <a href="#" class="footer-category-link">lipstick</a>
+                    <a href="#" class="footer-category-link">prefume</a>
+                    <a href="#" class="footer-category-link">Body soap</a>
+                    <a href="#" class="footer-category-link">scrub</a>
+                    <a href="#" class="footer-category-link">hair gel</a>
+                    <a href="#" class="footer-category-link">hair colors</a>
+                    <a href="#" class="footer-category-link">hair dye</a>
+                    <a href="#" class="footer-category-link">sunscreen</a>
+                    <a href="#" class="footer-category-link">skin loson</a>
+                    <a href="#" class="footer-category-link">liner</a>
+                    <a href="#" class="footer-category-link">lipstick</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-nav">
+
+            <div class="container">
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Popular Categories</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Fashion</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Electronic</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Cosmetic</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Health</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Watches</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Products</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Prices drop</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">New products</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Best sales</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Contact us</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Sitemap</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Our Company</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Delivery</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Legal Notice</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Terms and conditions</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">About us</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Secure payment</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Services</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Prices drop</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">New products</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Best sales</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Contact us</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Sitemap</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Contact</h2>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="content">
+                            419 State 414 Rte
+                            Beaver Dams, New York(NY), 14812, USA
+                        </address>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <a href="mailto:example@gmail.com" class="footer-nav-link">example@gmail.com</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-nav-list">
+
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Follow Us</h2>
+                    </li>
+
+                    <li>
+                        <ul class="social-link">
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+                <p class="copyright">
+                    Copyright &copy; <a href="#">FireAndIce</a> all rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+<style>
+    .contact__us {
+        position: absolute;
+        right: 42px;
+        bottom: 13px;
+    }
+
+    .rte {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 20px;
+    }
+    .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 30px;
+    }
+
+    @media (max-width:786px) {
+        .contact__us {
+            position: unset;
+            text-align: center;
+            /* right: 74px;
+bottom: 33px; */
+        }
+
+        div#shopify-section-footer .grid__item.medium-up--hide {
+            padding-top: 18px;
+        }
+    }
+
+    @media (max-width: 390px) {
+        .contact__us {
+            right: 52px !important;
+            bottom: 24px !important;
+        }
+
+        .site-footer {
+            padding: 5px 0;
+        }
+    }
+</style>
+
+</html>
